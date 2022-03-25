@@ -1,0 +1,12 @@
+{% extends 'store/dashboard.html' %}
+
+{% block content %}
+<h2>Add Item</h2>
+<h2>{{product_id}}</h2>
+<form method="post">
+    {% csrf_token %}
+    <input type='hidden' name="product_id" value="{{ product_id }}">
+    {{ item_form.as_p }}
+    <button type="submit">Add<button>
+</form>
+{% endblock %}

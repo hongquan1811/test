@@ -1,0 +1,13 @@
+{% extends 'store/dashboard.html' %}
+
+{% block content %}
+<div id="main" >
+    <h2>update Book</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{productForm.as_p }}
+        {{bookForm.as_p }}
+        <button type="submit">update<button>
+    </form>
+</div>
+{% endblock %}

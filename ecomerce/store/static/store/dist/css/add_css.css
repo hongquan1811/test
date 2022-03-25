@@ -1,0 +1,38 @@
+
+.alert-box {
+    color: #555;
+    border-radius: 10px;
+    font-family: Tahoma, Geneva, Arial, sans-serif;
+    font-size: 11px;
+    padding: 10px 10px 10px 36px;
+    margin: 10px;
+    width:40%;
+}
+.error {
+    background: #ffecec url('images/error.png') no-repeat 10px 50%;
+    border: 1px solid #f5aca6;
+    width: 30%;
+}
+.success {
+    background: #e9ffd9 url('images/success.png') no-repeat 10px 50%;
+    border: 1px solid #a6ca8a;
+    width: 20%;
+}
+.warning {
+    background: #fff8c4 url('images/warning.png') no-repeat 10px 50%;
+    border: 1px solid #f2c779;
+    width: 20%;
+}
+.information {
+    background: #e3f7fc url('images/information.png') no-repeat 10px 50%;
+    border: 1px solid #8ed9f6;
+    width: 20%;
+}
+.glyphicon glyphicon-log-out{
+color:#fff;
+}
+th.th {
+    width: 70px;
+    text-align: center;
+  
+}

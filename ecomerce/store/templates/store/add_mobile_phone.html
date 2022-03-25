@@ -1,0 +1,10 @@
+{% extends 'store/dashboard.html' %}
+{% block content %}
+<h2>Add MobilePhone</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ product_form.as_p }}
+    {{ mobile_phone_form.as_p }}
+    <button type="submit">Add<button>
+</form>
+{% endblock %}
